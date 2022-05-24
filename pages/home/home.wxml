@@ -1,10 +1,10 @@
 <!--pages/home.wxml-->
 <view>
 <image class="topTheme" src="{{themmA.entrance_img}}"></image>
-<swiper indicator-dots indicator-active-color="#157658" autoplay circular>
+<swiper class="swiper" indicator-dots indicator-active-color="#157658" autoplay circular>
 <block wx:for="{{bannerB.items}}" wx:for-index="id">
 <swiper-item>
-<image class="swiper-img" src="{{item.img}}"></image>
+<image class="swiper" src="{{item.img}}"></image>
 </swiper-item>
 </block></swiper>
 </view>

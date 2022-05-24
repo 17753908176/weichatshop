@@ -3,7 +3,7 @@
     width: 100%;
     height: 260rpx;
 }
-.swiper-img{
+.swiper{
     width: 100%;
     height: 360rpx;
 }
